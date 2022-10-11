@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  color: #465b52;
+}
+.main {
+  width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/bg-header-desktop.png) no-repeat;
+    background-size: cover;
+ justify-content: center;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+.main-heading {
+  margin: 13px;
+}
+.buttons {
+  display: flex;
+  margin: 15px 0px;
+}
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background: green;
+  color: white;
+  outline: none;
+  border: none; 
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0px 10px;
+transition: 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.Android {
+  cursor: pointer;
+  display: inline-block;
+  background: blue;
+  color: white;
+  outline: none;
+  border: none; 
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0px 10px;
+  transition: 0.3s ease;
+}
+.Android:hover {
+  transform: scale(1.1);
+}
+section {
+  padding: 100px 200px;
+}
+.services-heading h2 {
+  text-align: center;
+}
+.services-img, img{
+  width: 300px;
+  padding: 15px;
+}
+.container {
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+
+}
+.info{
+  margin: 20px;
+}
+.workflow-title{
+  margin: 20px;
+}
+.access {
+  text-align: center;
+  padding: 6px;
+}
+.imgs img{
+  
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.workflow-heading {
+  text-align: center;
+}
+.card-img img {
+  width: 100px;
+}
+.cards {
+  display: flex; 
+flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.images0 {
+  display: flex;
+  margin: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.clipboard-heading{
+  text-align: center;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.clipboard-heading, p {
+  margin: 10px;
+}
+@media screen and (max-width: 800px) {
+  section {
+    padding: 70px 20px;
+  }
+  .images0 {
+    flex-direction: column;
+  }
+  .images0 img {
+    width: 150px;
+    margin: 10px;
+  }
+  .container{
+    display: block;
+  text-align: center;
+  }
+button{
+  padding: 30px;
+  width: 150px;
+}
+  }
